@@ -1,0 +1,4 @@
+import os
+
+MAIL_USERNAME = os.getenv("GMAIL_USERNAME")
+MAIL_PASSWORD = os.getenv("GMAIL_PASSWORD")
